@@ -1,0 +1,48 @@
+[2024-10-15T03:54:03.797+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-15T03:54:03.825+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [queued]>
+[2024-10-15T03:54:03.839+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [queued]>
+[2024-10-15T03:54:03.841+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-15T03:54:03.866+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): ni_hao_ma> on 2024-10-14 00:35:00+00:00
+[2024-10-15T03:54:03.875+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1385) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-15T03:54:03.878+0000] {standard_task_runner.py:72} INFO - Started process 1386 to run task
+[2024-10-15T03:54:03.886+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_Airflow__Ni_Hao_Ma', 'ni_hao_ma', 'scheduled__2024-10-14T00:35:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/DAG_Airflow_test_01.py', '--cfg-path', '/tmp/tmpg1_t5oiu']
+[2024-10-15T03:54:03.890+0000] {standard_task_runner.py:105} INFO - Job 6: Subtask ni_hao_ma
+[2024-10-15T03:54:03.912+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-10-15T03:54:03.961+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [running]> on host c8eca7e310e3
+[2024-10-15T03:54:03.963+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-10-15T03:54:04.086+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='de@***' AIRFLOW_CTX_DAG_ID='DAG_Airflow__Ni_Hao_Ma' AIRFLOW_CTX_TASK_ID='ni_hao_ma' AIRFLOW_CTX_EXECUTION_DATE='2024-10-14T00:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-14T00:35:00+00:00'
+[2024-10-15T03:54:04.094+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-15T03:54:04.168+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-15T03:54:04.179+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'Ni Hao Ma?' Airflow 2.10.2 2024-10-15"]
+[2024-10-15T03:54:04.209+0000] {subprocess.py:86} INFO - Output:
+[2024-10-15T03:54:04.224+0000] {subprocess.py:93} INFO - Ni Hao Ma? Airflow 2.10.2 2024-10-15
+[2024-10-15T03:54:04.226+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-15T03:54:04.372+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-15T03:54:04.376+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_Airflow__Ni_Hao_Ma, task_id=ni_hao_ma, run_id=scheduled__2024-10-14T00:35:00+00:00, execution_date=20241014T003500, start_date=20241015T035403, end_date=20241015T035404
+[2024-10-15T03:54:04.439+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-15T03:54:04.475+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-15T03:54:04.479+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-15T15:12:07.577+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-15T15:12:07.589+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [queued]>
+[2024-10-15T15:12:07.595+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [queued]>
+[2024-10-15T15:12:07.597+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-15T15:12:07.603+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): ni_hao_ma> on 2024-10-14 00:35:00+00:00
+[2024-10-15T15:12:07.608+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=851) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-15T15:12:07.608+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'DAG_Airflow__Ni_Hao_Ma', 'ni_hao_ma', 'scheduled__2024-10-14T00:35:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/DAG_Airflow_test_01.py', '--cfg-path', '/tmp/tmphbr2_8uv']
+[2024-10-15T15:12:07.609+0000] {standard_task_runner.py:72} INFO - Started process 852 to run task
+[2024-10-15T15:12:07.611+0000] {standard_task_runner.py:105} INFO - Job 2: Subtask ni_hao_ma
+[2024-10-15T15:12:07.623+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-10-15T15:12:07.648+0000] {task_command.py:467} INFO - Running <TaskInstance: DAG_Airflow__Ni_Hao_Ma.ni_hao_ma scheduled__2024-10-14T00:35:00+00:00 [running]> on host fde4844d93b8
+[2024-10-15T15:12:07.651+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-10-15T15:12:07.702+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='de@***' AIRFLOW_CTX_DAG_ID='DAG_Airflow__Ni_Hao_Ma' AIRFLOW_CTX_TASK_ID='ni_hao_ma' AIRFLOW_CTX_EXECUTION_DATE='2024-10-14T00:35:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-14T00:35:00+00:00'
+[2024-10-15T15:12:07.704+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-15T15:12:07.707+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-15T15:12:07.708+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'Ni Hao Ma?' Airflow 2.10.2 2024-10-15"]
+[2024-10-15T15:12:07.713+0000] {subprocess.py:86} INFO - Output:
+[2024-10-15T15:12:07.715+0000] {subprocess.py:93} INFO - Ni Hao Ma? Airflow 2.10.2 2024-10-15
+[2024-10-15T15:12:07.716+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-15T15:12:07.733+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-15T15:12:07.734+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DAG_Airflow__Ni_Hao_Ma, task_id=ni_hao_ma, run_id=scheduled__2024-10-14T00:35:00+00:00, execution_date=20241014T003500, start_date=20241015T151207, end_date=20241015T151207
+[2024-10-15T15:12:07.749+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-15T15:12:07.767+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-15T15:12:07.770+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
